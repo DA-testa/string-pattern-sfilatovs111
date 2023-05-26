@@ -22,10 +22,10 @@ def print_occurrences(output):
 
 
 def calculate_hash(string):
-    hash_value = 7
+    hash_value = 10
     for char in string:
         hash_value += ord(char)
-        hash_value *= 37
+        hash_value *= 45
 
     return hash_value
 
